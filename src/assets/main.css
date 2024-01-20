@@ -1,0 +1,24 @@
+@import './base.css';
+
+#app {
+  /* max-width: 1440px; */
+}
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color:hsl(0, 0%, 98%) ; 
+  color: hsl(200, 15%, 8%);
+}
+
+a,
+.green {
+  text-decoration: none;
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(212, 100%, 37%, 0.2);
+  }
+}
+
